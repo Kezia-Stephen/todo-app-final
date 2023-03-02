@@ -1,0 +1,123 @@
+/* *{
+  background-color: #ebf1bd;
+  z-index: -1;
+} */
+
+body{
+  margin: 0;
+}
+ 
+.App{
+  padding: 0.5rem 20rem;
+}
+/* *{
+  background: #E1EEDD;
+} */
+
+.inputtab{
+  background: linear-gradient(#FFF1DC,  #e8b0bb, #E8D5C4);
+  margin-bottom: 2rem;
+}
+
+.btn-customized{
+  background-color:#A7727D;
+  color: #fff;
+}
+
+label, .h3{
+  color: #A7727D;
+}
+
+.h3, .form-group, .btn-customized{
+  padding: 1.5rem;
+  /* line-height: none; */
+}
+ i{
+  padding-left: 1.5rem;
+ }
+
+ .header{
+  height: 200px;
+  width: 100%;
+  background-color : #E9EEF6;
+  padding-top: 50px;
+}
+
+.card-container{
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #A5A5A5;
+}
+
+.card-wrapper{
+  width: 220px; 
+  height: 200px; 
+  box-shadow: 0px 3px 50px #A5A5A5;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.card-top{
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  padding: 10px 10px;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 80px;
+  height: 30px;
+  padding: 1px 1px !important;
+  text-align: center;
+}
+
+.task-container{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F6F7F8;
+  padding : 40px 100px;
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #FFF1DC; */
+  background: linear-gradient(#FFF1DC,  #e8b0bb, #E8D5C4);
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  /* padding-right: 10px; */
+  box-shadow: 0px 2px 4px rgb(39, 38, 38);
+}
+.todo-list-item p{
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgb(179, 178, 178);
+
+}
+
+/* This aligns the flex items differently */
+/* Use this if there is a third flex item like a checkbox */
+/* .todo-list-item .todo-task{
+  margin-left: 20px;
+  margin-right: auto;
+} */
